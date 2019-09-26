@@ -9,7 +9,7 @@ import com.training.dao.ELearningDAO;
 import com.training.readexcel.ApachePOIExcelRead;
 import com.training.readexcel.ReadExcel;
 
-public class LoginDataProviders {
+public class AddProductDataProviders_RTTC_071 {
 
 	@DataProvider(name = "db-inputs")
 	public Object [][] getDBData() {
@@ -33,7 +33,7 @@ public class LoginDataProviders {
 	@DataProvider(name = "excel-inputs")
 	public Object[][] getExcelData(){
 	//	String fileName ="C:/Users/Naveen/Desktop/Testing.xlsx"; 
-		String fileName ="C:/Users/BABITAFERNANDEZ/Testing.xlsx"; 
+		String fileName ="C:/Users/BABITAFERNANDEZ/RTTC_071_TestData.xlsx"; 
 		return new ApachePOIExcelRead().getExcelContent(fileName); 
 	}
 	

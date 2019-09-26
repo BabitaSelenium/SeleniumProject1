@@ -1,69 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="83236" started-at="2019-09-18T06:12:51Z" finished-at="2019-09-18T06:14:14Z">
+  <suite name="Default suite" duration-ms="158627" started-at="2019-09-26T06:22:16Z" finished-at="2019-09-26T06:24:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="83236" started-at="2019-09-18T06:12:51Z" finished-at="2019-09-18T06:14:14Z">
-      <class name="com.training.sanity.tests.RTTC_042_Test_AdminAddProduct">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="setUpBeforeClass" is-config="true" duration-ms="8814" started-at="2019-09-18T11:42:51Z" finished-at="2019-09-18T11:43:00Z">
+    <test name="Default test" duration-ms="158627" started-at="2019-09-26T06:22:16Z" finished-at="2019-09-26T06:24:55Z">
+      <class name="com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts@457e2f02]" name="setUpBeforeClass" is-config="true" duration-ms="49009" started-at="2019-09-26T11:52:16Z" finished-at="2019-09-26T11:53:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-18T11:43:00Z" finished-at="2019-09-18T11:43:00Z">
+        <test-method status="PASS" signature="AddProductExcelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts@457e2f02]" name="AddProductExcelTest" duration-ms="41481" started-at="2019-09-26T11:53:07Z" data-provider="excel-inputs" finished-at="2019-09-26T11:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Faulty, please supply details]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[product is faulty]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest1()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="LoginTest1" duration-ms="2667" started-at="2019-09-18T11:43:00Z" finished-at="2019-09-18T11:43:03Z">
+        </test-method> <!-- AddProductExcelTest -->
+        <test-method status="PASS" signature="AddProductExcelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts@457e2f02]" name="AddProductExcelTest" duration-ms="22478" started-at="2019-09-26T11:53:48Z" data-provider="excel-inputs" finished-at="2019-09-26T11:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dead On Arrival]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[product is not working]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest1 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-18T11:43:03Z" finished-at="2019-09-18T11:43:03Z">
+        </test-method> <!-- AddProductExcelTest -->
+        <test-method status="PASS" signature="AddProductExcelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts@457e2f02]" name="AddProductExcelTest" duration-ms="22894" started-at="2019-09-26T11:54:11Z" data-provider="excel-inputs" finished-at="2019-09-26T11:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Order Error]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wrong product]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CatalogMenuTest2()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="CatalogMenuTest2" duration-ms="4575" started-at="2019-09-18T11:43:03Z" depends-on-methods="com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.LoginTest1" finished-at="2019-09-18T11:43:07Z">
+        </test-method> <!-- AddProductExcelTest -->
+        <test-method status="PASS" signature="AddProductExcelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts@457e2f02]" name="AddProductExcelTest" duration-ms="19004" started-at="2019-09-26T11:54:33Z" data-provider="excel-inputs" finished-at="2019-09-26T11:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Received Wrong Item]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[not my item]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CatalogMenuTest2 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="setUp" is-config="true" duration-ms="1" started-at="2019-09-18T11:43:07Z" finished-at="2019-09-18T11:43:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ProductTest3()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="ProductTest3" duration-ms="10806" started-at="2019-09-18T11:43:07Z" depends-on-methods="com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.LoginTest1, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.CatalogMenuTest2" finished-at="2019-09-18T11:43:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductTest3 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-18T11:43:18Z" finished-at="2019-09-18T11:43:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ProductTest4()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="ProductTest4" duration-ms="15666" started-at="2019-09-18T11:43:18Z" depends-on-methods="com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.ProductTest3, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.LoginTest1, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.CatalogMenuTest2" finished-at="2019-09-18T11:43:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductTest4 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-18T11:43:34Z" finished-at="2019-09-18T11:43:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DefaultTabTest5()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="DefaultTabTest5" duration-ms="32068" started-at="2019-09-18T11:43:34Z" depends-on-methods="com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.ProductTest3, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.ProductTest4, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.LoginTest1, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.CatalogMenuTest2" finished-at="2019-09-18T11:44:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DefaultTabTest5 -->
-        <test-method status="PASS" signature="SaveButtonTest6()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="SaveButtonTest6" duration-ms="6674" started-at="2019-09-18T11:44:06Z" depends-on-methods="com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.ProductTest3, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.ProductTest4, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.LoginTest1, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.CatalogMenuTest2, com.training.sanity.tests.RTTC_042_Test_AdminAddProduct.DefaultTabTest5" finished-at="2019-09-18T11:44:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SaveButtonTest6 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-18T11:44:06Z" finished-at="2019-09-18T11:44:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_042_Test_AdminAddProduct@457e2f02]" name="tearDown" is-config="true" duration-ms="1907" started-at="2019-09-18T11:44:12Z" finished-at="2019-09-18T11:44:14Z">
+        </test-method> <!-- AddProductExcelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts@457e2f02]" name="tearDown" is-config="true" duration-ms="2079" started-at="2019-09-26T11:54:52Z" finished-at="2019-09-26T11:54:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RTTC_042_Test_AdminAddProduct -->
+      </class> <!-- com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

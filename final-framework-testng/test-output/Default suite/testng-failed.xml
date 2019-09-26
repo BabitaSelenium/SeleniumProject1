@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.RTTC_044_Test_AddProdDeleteMulProandSearch">
+      <class name="com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts">
         <methods>
-          <include name="deleteMultipleProductTest9"/>
           <include name="setUpBeforeClass"/>
           <include name="tearDown"/>
+          <include name="AddProductExcelTest" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.RTTC_044_Test_AddProdDeleteMulProandSearch -->
+      </class> <!-- com.training.regression.tests.RTTC_075_Test_UserReturnOrderedproducts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
